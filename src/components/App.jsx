@@ -4,8 +4,8 @@ import SearchBar from './SearchBar/SearchBar';
 import Gallery from './ImageGallery/ImageGallery';
 import { getPicture } from './services/getPicture';
 import MyLoader from './Loader/Loader';
-import LoadMoreButton from './LoadMoreButton/LoadMoreButton';
 import styles from './App.module.css';
+import LoadMoreButton from './LoadMoreButton/LoadMoreButton';
 
 const App = () => {
   const [images, setImages] = useState([]);
